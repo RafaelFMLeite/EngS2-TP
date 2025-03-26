@@ -162,8 +162,9 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
   │   │           ├── service/       # Lógica de negócio
   │   │           └── security/      # Configurações de segurança (JWT)
   │   └── resources/
-  │       └── application.properties # Configurações do Spring Boot
-  └── test/                          # Testes unitários e de integração
+  │       └── application.yml # Configurações do Spring Boot
+  |       └── META-INF        # Metadados de ambiente
+  └── test/                   # Testes unitários e de integração
   ```
 
 ---
