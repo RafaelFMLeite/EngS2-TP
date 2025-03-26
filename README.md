@@ -155,6 +155,7 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
   │   ├── java/
   │   │   └── com/
   │   │       └── agendamentotenis/
+  |   |           ├── Config         # Configuranções de ambiente 
   │   │           ├── controller/    # Controladores das APIs
   │   │           ├── model/         # Entidades do banco de dados
   │   │           ├── repository/    # Repositórios para acesso ao MongoDB
