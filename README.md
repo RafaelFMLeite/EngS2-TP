@@ -252,11 +252,10 @@ Aqui estão alguns cenários de teste para validar as funcionalidades descritas 
    - **Quando** ele acessa a página de partidas agendadas,
    - **Então** o sistema deve exibir todas as partidas agendadas em um calendário ou lista.
 
-5. **Confirmação de Participação**:
+5 e 6. **Confirmação de Participação**:
    - **Dado** que o usuário recebeu um convite para uma partida,
    - **Quando** ele confirma sua participação,
    - **Então** o sistema deve atualizar o status da partida e notificar o organizador.
-
 ---
 
 ### 2. **Projeto Arquitetural**
