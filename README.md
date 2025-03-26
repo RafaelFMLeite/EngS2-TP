@@ -102,7 +102,34 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
 
 ---
 
-### 4. **Estrutura do Projeto**
+
+
+### 6. **Como Executar o Projeto**
+
+#### Frontend:
+
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
+2. Execute o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+#### Backend:
+
+1. Configure o arquivo `application.properties` com as credenciais do MongoDB.
+2. Execute o projeto Spring Boot:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
+---
+
+> # Sprint 2: Detalhamento de Requisitos e Projeto Arquitetural
+
+### 0. **Estrutura do Projeto**
 
 #### Frontend (Vue.js):
 
@@ -140,30 +167,6 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
 
 ---
 
-### 6. **Como Executar o Projeto**
-
-#### Frontend:
-
-1. Instale as dependências:
-   ```bash
-   npm install
-   ```
-2. Execute o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
-
-#### Backend:
-
-1. Configure o arquivo `application.properties` com as credenciais do MongoDB.
-2. Execute o projeto Spring Boot:
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-
----
-
-> # Sprint 2: Detalhamento de Requisitos e Projeto Arquitetural
 
 ### 1. **Detalhamento dos Requisitos Funcionais**
 
