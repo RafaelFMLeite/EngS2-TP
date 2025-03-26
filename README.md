@@ -10,7 +10,7 @@
 
 O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foco em entregas incrementais e iterativas. O trabalho será dividido em **3 sprints**, conforme solicitado, e cada sprint terá um conjunto de tarefas específicas.
 
-#### Atividades do Sprint 1:
+#### Atividades da Sprint 1:
 
 - **Definição do escopo do projeto**: Definir o que o sistema de agendamento de partidas de tênis fará.
 - **Especificação de requisitos**: Listar os requisitos funcionais e não funcionais.
