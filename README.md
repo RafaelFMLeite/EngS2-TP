@@ -111,6 +111,7 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
   src/
   ├── assets/           # Arquivos estáticos (imagens, fonts, etc.)
   ├── components/       # Componentes reutilizáveis
+  ├── config/           # Configurações da API 
   ├── views/            # Páginas da aplicação
   ├── router/           # Configuração de rotas (Vue Router)
   ├── store/            # Gerenciamento de estado (Vuex ou Pinia)
