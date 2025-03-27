@@ -252,7 +252,7 @@ Aqui estão alguns cenários de teste para validar as funcionalidades descritas 
    - **Quando** ele acessa a página de partidas agendadas,
    - **Então** o sistema deve exibir todas as partidas agendadas em um calendário ou lista.
 
-5 e 6. **Confirmação de Participação**:
+5. **Confirmação de Participação**:
    - **Dado** que o usuário recebeu um convite para uma partida,
    - **Quando** ele confirma sua participação,
    - **Então** o sistema deve atualizar o status da partida e notificar o organizador.
@@ -549,7 +549,7 @@ Aqui está o **Diagrama de Sequência UML**:
    - O **Service** retorna uma resposta de sucesso para o **Controller**.
    - O **Controller** retorna uma resposta HTTP (ex: status 200 OK) para o frontend.
 
-5. **Frontend (Vue.js)**:
+5 e 6. **Frontend (Vue.js)**:
    - O frontend recebe a resposta do backend e exibe uma mensagem de sucesso para o usuário (ex: "Partida agendada com sucesso!").
 
 ---
