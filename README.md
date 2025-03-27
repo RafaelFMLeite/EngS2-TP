@@ -146,6 +146,10 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
   └── App.vue           # Componente principal
   ```
 
+O front-end não segue MVC tradicional, mas tem influências de MVVM e Flux (Padrão de gerenciamento de estado como Pinia/Vuex).
+
+Pode dizer que é component-based com separação de responsabilidades, mas não MVC puro.
+
 #### Backend (Spring Boot):
 
 - **Estrutura de Pastas**:
@@ -166,6 +170,16 @@ O projeto será desenvolvido utilizando um modelo de processo **ágil**, com foc
   |       └── META-INF        # Metadados de ambiente
   └── test/                   # Testes unitários e de integração
   ```
+
+O backend usa Spring Boot com arquitetura em 3 camadas, enquanto o frontend segue um padrão modular baseado em componentes (Vue 3), com stores (Pinia) para gerenciamento de estado e serviços para comunicação com a API.
+Backend (Spring Boot):
+controller: Camada de apresentação (recebe requisições e retorna respostas).
+
+service: Camada de lógica de negócios (regras de negócio, validações).
+
+repository: Camada de acesso a dados (comunicação com o MongoDB).
+
+Essa estrutura segue o padrão de 3 camadas clássico no Spring Boot.
 
 ---
 
